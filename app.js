@@ -71,7 +71,7 @@ function limparcampo(){
     chute.value='';
 }
 
-function reiniciarjogo(){
+function reiniciarJogo(){
     numeroSecreto = gerarNumeroAleatorio();
     limparcampo();
     tentativas=1;
